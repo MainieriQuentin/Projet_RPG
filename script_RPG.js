@@ -3,8 +3,10 @@ const Ulder = new Paladin("Ulder");
 const Moana = new Monk("Moana");
 const Draven = new Berzerker("Draven");
 const Carl = new Assassin("Carl");
+const Luffy = new Pirate("Luffy");
+const Naruto = new Ninja("Naruto");
 
-let players = [Grace, Ulder, Moana, Draven, Carl];
+let players = [Grace, Ulder, Moana, Draven, Carl, Luffy, Naruto];
 
 const GAME = new Game(players);
 

@@ -10,4 +10,10 @@ class Monk extends Character {
     alert(`${this.name} a utilisé ${this.ult}, il récupère 8 hp.`)
     alert(`${this.ult} lui coûte 25 de mana.`)
   }
+
+
+
+  seeUltMove() {
+    alert(`${this.ult}\n Restaure 8 hp\n Coûte 25 de mana.`)
+  }
 }
