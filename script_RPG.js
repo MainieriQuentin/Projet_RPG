@@ -6,7 +6,7 @@ const Carl = new Assassin("Carl");
 const Luffy = new Pirate("Luffy");
 const Naruto = new Ninja("Naruto");
 
-let players = [Grace, Ulder, Moana, Draven, Carl, Luffy, Naruto];
+let players = [Grace, Ulder, Moana, Draven, Carl, Luffy, Naruto ];
 
 const GAME = new Game(players);
 

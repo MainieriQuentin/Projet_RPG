@@ -48,6 +48,7 @@ class Character {
   changeStatusToWinner() {
     if (this.isCharacterKilled() == false) {
       this.status = "winner";
+      alert(`${this.name} a gagné`);
     }
   }
 

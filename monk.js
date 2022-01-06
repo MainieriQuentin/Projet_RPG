@@ -14,6 +14,6 @@ class Monk extends Character {
 
 
   seeUltMove() {
-    alert(`${this.ult}\n Restaure 8 hp\n Coûte 25 de mana.`)
+    alert(`${this.ult}\n- Restaure 8 hp.\n- Coûte 25 de mana.`)
   }
 }

@@ -15,7 +15,7 @@ class Fighter extends Character {
 
 
   seeUltMove() {
-    alert(`${this.ult}- Cause 5 points de dégats.\n- Diminue les dégats de 2 points de dégats par coup, jusqu'à la fin du tour.`
+    alert(`${this.ult}\n- Cause 5 points de dégats.\n- Diminue les dégats de 2 points de dégats par coup, jusqu'à la fin du tour.`
     );
   }
 

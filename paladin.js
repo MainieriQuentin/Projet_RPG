@@ -15,6 +15,6 @@ class Paladin extends Character {
   }
 
   seeUltMove() {
-    alert(`${this.ult}\n Inflige 4 dégats.\n Permet de se soigner de 5 hp.\n Coûte 40 de mana.`)
+    alert(`${this.ult}\n- Inflige 4 dégats.\n- Permet de se soigner de 5 hp.\n- Coûte 40 de mana.`)
   }
 }

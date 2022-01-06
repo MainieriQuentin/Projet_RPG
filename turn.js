@@ -18,7 +18,7 @@ class Turn extends Game {
   }
 
   playerActionsMenu(player) {
-    let playerResponse = prompt(`${player.name}, que veux-tu faire ?\nAppuyer [0] pour voir tes stats \nAppuyer [1] pour voir les stats des autres joueurs. \nAppuyer[2] pour attaquer un joueur \nAppuyer [3] pour voir ton move spécial \nAppuyer[4] pour utiliser ton move spécial`);
+    let playerResponse = prompt(`${player.name}, que veux-tu faire ?\nAppuyer [0] pour voir tes stats \nAppuyer [1] pour voir les stats des autres joueurs. \nAppuyer [2] pour attaquer un joueur. \nAppuyer [3] pour voir ton move spécial. \nAppuyer [4] pour utiliser ton move spécial.`);
 
     switch (playerResponse) {
       case '0':
@@ -41,10 +41,10 @@ class Turn extends Game {
       break;
 
       case '4':
-        if (player.constructor.name == 'Fighter' || player.constructor.name == 'Paladin' || player.constructor.name == 'Pirate'|| player.constructor.name == 'Ninja' || player.constructor.name == 'Assassin') {
-          player.UltMove(this.chooseTarget(player));
+        if (player.constructor.name == "Fighter" || player.constructor.name == "Paladin" || player.constructor.name == "Pirate"|| player.constructor.name == "Ninja" || player.constructor.name == "Assassin") {
+          player.ultMove(this.chooseTarget(player));
         } else {
-          player.UltMove();
+          player.ultMove();
         }    
       break;
        
