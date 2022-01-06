@@ -6,18 +6,18 @@ Hello everybody, je vous présente un mini jeu en javascript tour par tour avec 
             Personnages jouables
 
 
-Le Paladin
-Le Fighter
-Le Berzerker
-Le Monk
-L’assassin
+-Le Paladin
+-Le Fighter
+-Le Berzerker
+-Le Monk
+-L’assassin
 
              Features
 
 
-Chaque personnage à son propre ulti.
-Chaque personnage à une réserve de mana.
-Lorsqu’un kill est fait, le tueur récupère une réserve de mana.
+-Chaque personnage à son propre ulti.
+-Chaque personnage à une réserve de mana.
+-Lorsqu’un kill est fait, le tueur récupère une réserve de mana.
 
              Tests
              
