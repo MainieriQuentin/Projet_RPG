@@ -19,7 +19,7 @@ class Turn extends Game {
 
   playerActionsMenu(player) {
     let playerResponse = prompt(
-      `${player.name}, que veux tu faire ? \nAppuyer [0] pour voir vos propres stats. \nAppuyer [1] pour voir les stats des autres joueurs \nAppuyer [2] pour utiliser ton ult`
+      `${player.name}, que veux tu faire ? \nAppuyer [0] pour voir vos propres stats. \nAppuyer [1] pour voir les stats des autres joueurs \nAppuyer [2] pour attaquer un joueur \nAppuyer [3] pour utiliser ton ult`
     );
 
     switch (playerResponse) {
